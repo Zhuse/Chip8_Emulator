@@ -33,3 +33,7 @@
 
 # Binaries
 *.ch8
+
+/.vscode
+/.vs
+/test
