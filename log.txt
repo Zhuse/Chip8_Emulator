@@ -1,0 +1,6345 @@
+f0
+90
+90
+90
+f0
+20
+60
+20
+20
+70
+f0
+10
+f0
+80
+f0
+f0
+10
+f0
+10
+f0
+90
+90
+f0
+10
+10
+f0
+80
+f0
+10
+f0
+f0
+80
+f0
+90
+f0
+f0
+10
+20
+40
+40
+f0
+90
+f0
+90
+f0
+f0
+90
+f0
+10
+f0
+f0
+90
+f0
+90
+90
+e0
+90
+e0
+90
+e0
+f0
+80
+80
+80
+f0
+e0
+90
+90
+90
+e0
+f0
+80
+f0
+80
+f0
+f0
+80
+f0
+80
+80
+a
+0
+0
+0
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+2d
+a
+0
+50
+43
+3a
+20
+0
+53
+50
+3a
+20
+0
+49
+Loaded file size is 1de bytes 
+1262
+
+ (MinGW.org GCC-6.3.0-1) 6.3.0
+1262
+-------------------------------
+PC: 262
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 0
+V6: 0
+V7: 0
+V8: 0
+V9: 0
+Va: 0
+Vb: 0
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6801
+
+8
+8
+0x6000
+6801
+-------------------------------
+PC: 264
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 0
+V6: 0
+V7: 0
+V8: 1
+V9: 0
+Va: 0
+Vb: 0
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6905
+
+9
+9
+0x6000
+6905
+-------------------------------
+PC: 266
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 0
+V6: 0
+V7: 0
+V8: 1
+V9: 5
+Va: 0
+Vb: 0
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6a0a
+
+a
+a
+0x6000
+6a0a
+-------------------------------
+PC: 268
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 0
+V6: 0
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 0
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b01
+
+b
+b
+0x6000
+6b01
+-------------------------------
+PC: 26a
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 0
+V6: 0
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+652a
+
+5
+5
+0x6000
+652a
+-------------------------------
+PC: 26c
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 0
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+662b
+
+6
+6
+0x6000
+662b
+-------------------------------
+PC: 26e
+SP: 0
+I: 0
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a216
+
+0xA000
+a216
+-------------------------------
+PC: 270
+SP: 0
+I: 216
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 0
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+216
+e0
+217
+60
+218
+20
+219
+e0
+0xD000
+d8b4
+-------------------------------
+PC: 272
+SP: 0
+I: 216
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 274
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 276
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a206
+
+0xA000
+a206
+-------------------------------
+PC: 278
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+362a
+
+0x3000
+362a
+-------------------------------
+PC: 27a
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 27c
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 27e
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b06
+
+b
+b
+0x6000
+6b06
+-------------------------------
+PC: 280
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a21a
+
+0xA000
+a21a
+-------------------------------
+PC: 282
+SP: 0
+I: 21a
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+21a
+a0
+21b
+e0
+21c
+20
+21d
+20
+0xD000
+d8b4
+-------------------------------
+PC: 284
+SP: 0
+I: 21a
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 286
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 288
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a206
+
+0xA000
+a206
+-------------------------------
+PC: 28a
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+452a
+
+0x4000
+452a
+-------------------------------
+PC: 28c
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 28e
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 290
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 6
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b0b
+
+b
+b
+0x6000
+6b0b
+-------------------------------
+PC: 292
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a21e
+
+0xA000
+a21e
+-------------------------------
+PC: 294
+SP: 0
+I: 21e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+21e
+60
+21f
+40
+220
+20
+221
+40
+0xD000
+d8b4
+-------------------------------
+PC: 296
+SP: 0
+I: 21e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 298
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 29a
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a206
+
+0xA000
+a206
+-------------------------------
+PC: 29c
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+5560
+
+0x5000
+5560
+-------------------------------
+PC: 29e
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 2a0
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 2a2
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: b
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b10
+
+b
+b
+0x6000
+6b10
+-------------------------------
+PC: 2a4
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a226
+
+0xA000
+a226
+-------------------------------
+PC: 2a6
+SP: 0
+I: 226
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+226
+e0
+227
+20
+228
+20
+229
+20
+0xD000
+d8b4
+-------------------------------
+PC: 2a8
+SP: 0
+I: 226
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 2aa
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 2ac
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a206
+
+0xA000
+a206
+-------------------------------
+PC: 2ae
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2b
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+76ff
+
+0x7000
+76ff
+-------------------------------
+PC: 2b0
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+462a
+
+0x4000
+462a
+-------------------------------
+PC: 2b2
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 2b4
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 2b6
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 10
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b15
+
+b
+b
+0x6000
+6b15
+-------------------------------
+PC: 2b8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a22e
+
+0xA000
+a22e
+-------------------------------
+PC: 2ba
+SP: 0
+I: 22e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+22e
+e0
+22f
+e0
+230
+20
+231
+e0
+0xD000
+d8b4
+-------------------------------
+PC: 2bc
+SP: 0
+I: 22e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 2be
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 2c0
+SP: 0
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a206
+
+0xA000
+a206
+-------------------------------
+PC: 2c2
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+9560
+
+0x9000
+9560
+-------------------------------
+PC: 2c4
+SP: 0
+I: 206
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 2c6
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 2c8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+2242
+
+GNU) 6.3.0
+2242
+-------------------------------
+PC: 242
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 15
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b1a
+
+b
+b
+0x6000
+6b1a
+-------------------------------
+PC: 244
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a232
+
+0xA000
+a232
+-------------------------------
+PC: 246
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+232
+40
+233
+a0
+234
+e0
+235
+a0
+0xD000
+d8b4
+-------------------------------
+PC: 248
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 24a
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 24c
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 24e
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 250
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+ee
+
+Return from subroutine
+ee
+-------------------------------
+PC: 2c8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+2242
+
+GNU) 6.3.0
+2242
+-------------------------------
+PC: 242
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b1a
+
+b
+b
+0x6000
+6b1a
+-------------------------------
+PC: 244
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a232
+
+0xA000
+a232
+-------------------------------
+PC: 246
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+232
+40
+233
+a0
+234
+e0
+235
+a0
+0xD000
+d8b4
+-------------------------------
+PC: 248
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 24a
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 24c
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 24e
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 250
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+ee
+
+Return from subroutine
+ee
+-------------------------------
+PC: 2c8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+2242
+
+GNU) 6.3.0
+2242
+-------------------------------
+PC: 242
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b1a
+
+b
+b
+0x6000
+6b1a
+-------------------------------
+PC: 244
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a232
+
+0xA000
+a232
+-------------------------------
+PC: 246
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+232
+40
+233
+a0
+234
+e0
+235
+a0
+0xD000
+d8b4
+-------------------------------
+PC: 248
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 24a
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 24c
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 24e
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 250
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+ee
+
+Return from subroutine
+ee
+-------------------------------
+PC: 2c8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+2242
+
+GNU) 6.3.0
+2242
+-------------------------------
+PC: 242
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b1a
+
+b
+b
+0x6000
+6b1a
+-------------------------------
+PC: 244
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a232
+
+0xA000
+a232
+-------------------------------
+PC: 246
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+232
+40
+233
+a0
+234
+e0
+235
+a0
+0xD000
+d8b4
+-------------------------------
+PC: 248
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 24a
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 24c
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 24e
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 250
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+ee
+
+Return from subroutine
+ee
+-------------------------------
+PC: 2c8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+2242
+
+GNU) 6.3.0
+2242
+-------------------------------
+PC: 242
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b1a
+
+b
+b
+0x6000
+6b1a
+-------------------------------
+PC: 244
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a232
+
+0xA000
+a232
+-------------------------------
+PC: 246
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+232
+40
+233
+a0
+234
+e0
+235
+a0
+0xD000
+d8b4
+-------------------------------
+PC: 248
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 24a
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 24c
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 24e
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+dab4
+
+202
+ea
+203
+ac
+204
+aa
+205
+ea
+0xD000
+dab4
+-------------------------------
+PC: 250
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+ee
+
+Return from subroutine
+ee
+-------------------------------
+PC: 2c8
+SP: 0
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 0
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 0
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+2242
+
+GNU) 6.3.0
+2242
+-------------------------------
+PC: 242
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+6b1a
+
+b
+b
+0x6000
+6b1a
+-------------------------------
+PC: 244
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a232
+
+0xA000
+a232
+-------------------------------
+PC: 246
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 0
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d8b4
+
+232
+40
+233
+a0
+234
+e0
+235
+a0
+0xD000
+d8b4
+-------------------------------
+PC: 248
+SP: 1
+I: 232
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a23e
+
+0xA000
+a23e
+-------------------------------
+PC: 24a
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+d9b4
+
+23e
+a0
+23f
+40
+240
+a0
+241
+a0
+0xD000
+d9b4
+-------------------------------
+PC: 24c
+SP: 1
+I: 23e
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------
+a202
+
+0xA000
+a202
+-------------------------------
+PC: 24e
+SP: 1
+I: 202
+V0: 0
+V1: 0
+V2: 0
+V3: 0
+V4: 0
+V5: 2a
+V6: 2a
+V7: 0
+V8: 1
+V9: 5
+Va: a
+Vb: 1a
+Vc: 0
+Vd: 0
+Ve: 0
+Vf: 1
+Stack_0: 0
+Stack_1: 2c8
+Stack_2: 0
+Stack_3: 0
+Stack_4: 0
+Stack_5: 0
+Stack_6: 0
+Stack_7: 0
+Stack_8: 0
+Stack_9: 0
+Stack_a: 0
+Stack_b: 0
+Stack_c: 0
+Stack_d: 0
+Stack_e: 0
+Stack_f: 0
+Stack_10: 1
+Stack_11: 0
+Stack_12: 0
+Stack_13: 0
+Stack_14: 0
+Stack_15: 0
+Stack_16: 0
+Stack_17: 0
+Stack_18: 0
+Stack_19: 1
+Stack_1a: 0
+Stack_1b: 0
+Stack_1c: 0
+Stack_1d: 0
+Stack_1e: 0
+Stack_1f: 0
+-------------------------------

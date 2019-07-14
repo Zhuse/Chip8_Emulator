@@ -1,6 +1,26 @@
 #include "chip8.h"
 
+const unsigned char font_set[80] =
+    {
+        0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
+        0x20, 0x60, 0x20, 0x20, 0x70, // 1
+        0xF0, 0x10, 0xF0, 0x80, 0xF0, // 2
+        0xF0, 0x10, 0xF0, 0x10, 0xF0, // 3
+        0x90, 0x90, 0xF0, 0x10, 0x10, // 4
+        0xF0, 0x80, 0xF0, 0x10, 0xF0, // 5
+        0xF0, 0x80, 0xF0, 0x90, 0xF0, // 6
+        0xF0, 0x10, 0x20, 0x40, 0x40, // 7
+        0xF0, 0x90, 0xF0, 0x90, 0xF0, // 8
+        0xF0, 0x90, 0xF0, 0x10, 0xF0, // 9
+        0xF0, 0x90, 0xF0, 0x90, 0x90, // A
+        0xE0, 0x90, 0xE0, 0x90, 0xE0, // B
+        0xF0, 0x80, 0x80, 0x80, 0xF0, // C
+        0xE0, 0x90, 0x90, 0x90, 0xE0, // D
+        0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
+        0xF0, 0x80, 0xF0, 0x80, 0x80  // F
+};
 Chip8CPU cpu();
+std::ofstream logFile;
 int Chip8CPU::getFileSize(FILE *program)
 {
     int size = 0;
@@ -13,9 +33,25 @@ int Chip8CPU::getFileSize(FILE *program)
 
 void Chip8CPU::print(std::string s)
 {
-    std::cout << s << "\n";
+    logFile << s << "\n";
 }
 
+void Chip8CPU::printRegisters()
+{
+    logFile << "-------------------------------\n";
+    logFile << "PC: " << std::hex << (int)pc << "\n";
+    logFile << "SP: " << std::hex << (int)sp << "\n";
+    logFile << "I: " << std::hex << (int)I << "\n";
+    for (int i = 0; i < sizeof(V); i++)
+    {
+        logFile << "V" << i << ": " << std::hex << (int)V[i] << "\n";
+    }
+    for (int i = 0; i < sizeof(stack); i++)
+    {
+        logFile << "Stack_" << i << ": " << std::hex << (int)stack[i] << "\n";
+    }
+    logFile << "-------------------------------\n";
+}
 void Chip8CPU::initializeMemory()
 {
     unsigned int sizeV = sizeof(V);
@@ -27,6 +63,7 @@ void Chip8CPU::initializeMemory()
     sp = 0;
     delay_timer = 60;
     sound_timer = 60;
+    logFile.open("log.txt");
 
     for (int i = 0; i < sizeV; i++)
     {
@@ -38,9 +75,15 @@ void Chip8CPU::initializeMemory()
         gfx[i] = 0;
     }
 
+    for (int i = 0; i < sizeof(stack); i++)
+    {
+        stack[i] = 0;
+    }
+
     for (int i = 0; i < 0x80; i++)
     {
-        //memory[i] = chip8_fontset[i];
+        memory[i] = font_set[i];
+        logFile << std::hex << (int)memory[i] << "\n";
     }
 }
 
@@ -51,7 +94,7 @@ void Chip8CPU::loadGame()
     unsigned char *buffer;
     unsigned int fileSize = 0;
     size_t result;
-    FILE *program = fopen("test/pong.ch8", "rb+");
+    FILE *program = fopen("test/test_opcode.ch8", "rb+");
 
     if (program == NULL)
     {
@@ -60,7 +103,7 @@ void Chip8CPU::loadGame()
     }
 
     fileSize = getFileSize(program);
-    std::cout << "Loaded file size is " << fileSize << " bytes \n";
+    logFile << "Loaded file size is " << fileSize << " bytes \n";
     buffer = (unsigned char *)malloc(getFileSize(program));
     /*
         if (program != NULL)
@@ -68,15 +111,15 @@ void Chip8CPU::loadGame()
             while ((c = fgetc(program)) != EOF)
             {
                 memory[0x200 + memCount] = c;
-                std::cout << std::hex << memory[0x200 + memCount] << "\n";
+                logFile << std::hex << memory[0x200 + memCount] << "\n";
                 memCount++;
             }
-            std::cout << "Successfully loaded program";
+            logFile << "Successfully loaded program";
         }
         else
         {
             fclose(program);
-            std::cout << "ERROR: could not load program";
+            logFile << "ERROR: could not load program";
         }*/
 
     // copy the file into the buffer:
@@ -102,64 +145,258 @@ void Chip8CPU::loadGame()
 void Chip8CPU::emulateCycle()
 {
     unsigned short int opCode = 0x0;
-
     opCode = (int)(memory[pc] << 8 | (memory[pc + 1]));
-    std::cout << opCode << "\n";
+    unsigned int x = (int)((opCode & 0x0F00) >> 8);
+    unsigned int y = (int)((opCode & 0x00F0) >> 4);
+    unsigned int addition = 0;
+    bool flag = false;
+    logFile << opCode << "\n";
+    logFile << key << "\n";
     switch (opCode & 0xF000)
     {
     case 0x0000:
-        print("0x0000");
+        switch (opCode & 0x0FFF)
+        {
+        case 0x00E0:
+            print("Clear display");
+            pc += 2;
+            break;
+        case 0x00EE:
+            print("Return from subroutine");
+            pc = stack[sp];
+            stack[sp] = 0;
+            sp--;
+            break;
+        default:
+            print("Unknown OPCODE: " + opCode);
+            pc += 2;
+            break;
+        }
         break;
     case 0x1000:
-        print("0x1000");
+        pc = opCode & 0x0FFF;
+        print("Set pc to " + pc);
         break;
     case 0x2000:
-        print("0x2000");
+        sp++;
+        stack[sp] = pc;
+        pc = opCode & 0x0FFF;
+        print("Push onto stack and set pc to " + (opCode & 0x0FFF));
         break;
     case 0x3000:
+        if (V[x] == (opCode & 0x00FF))
+        {
+            pc += 4;
+        } else {
+            pc += 2;
+        }
         print("0x3000");
         break;
     case 0x4000:
+        if (V[x] != (opCode & 0x00FF))
+        {
+            pc += 4;
+        } else {
+            pc += 2;
+        }
         print("0x4000");
         break;
     case 0x5000:
+        if (V[x] == V[y])
+        {
+            pc += 4;
+        } else {
+            pc += 2;
+        }
         print("0x5000");
         break;
     case 0x6000:
+        logFile << x << "\n";
+        logFile << ((opCode & 0x0F00) >> 8) << "\n";
+        V[x] = opCode & 0x00FF;
+        pc += 2;
         print("0x6000");
         break;
     case 0x7000:
-        print("0x6000");
+        V[x] += opCode & 0x00FF;
+        pc += 2;
+        print("0x7000");
         break;
     case 0x8000:
-        print("0x6000");
+        switch (opCode & 0x000F)
+        {
+        case 0x0000:
+            V[x] = V[y];
+            break;
+        case 0x0001:
+            V[x] = V[x] | V[y];
+            break;
+        case 0x0002:
+            V[x] = V[x] & V[y];
+            break;
+        case 0x0003:
+            V[x] = V[x] ^ V[y];
+            break;
+        case 0x0004:
+            addition = V[x] + V[y];
+            if (addition > 0xFF)
+            {
+                V[0xF] = 1;
+            }
+            V[x] = addition & 0x00FF;
+            break;
+        case 0x0005:
+            if (V[x] > V[y])
+            {
+                V[0xF] = 1;
+            }
+            else
+            {
+                V[0xF] = 0;
+            }
+            V[x] = V[x] - V[y];
+            break;
+        case 0x0006:
+            if ((opCode & 0x000F) == 0x0001)
+            {
+                V[0xF] = 1;
+            }
+            else
+            {
+                V[0xF] = 0;
+            }
+            V[x] /= 2;
+        case 0x0007:
+            if (V[y] > V[x])
+            {
+                V[0xF] = 1;
+            }
+            else
+            {
+                V[0xF] = 0;
+            }
+            V[x] = V[y] - V[x];
+            break;
+        case 0x000E:
+            if ((opCode & 0x000F) == 0x1000)
+            {
+                V[0xF] = 1;
+            }
+            else
+            {
+                V[0xF] = 0;
+            }
+            V[x] *= 2;
+        }
+        pc += 2;
+        print("0x8000");
         break;
     case 0x9000:
-        print("0x6000");
+        if (V[x] != V[y])
+        {
+            pc += 4;
+        } else {
+            pc += 2;
+        }
+        print("0x9000");
         break;
     case 0xA000:
+        I = opCode & 0x0FFF;
+        pc += 2;
         print("0xA000");
         break;
     case 0xB000:
+        pc += V[0] + (opCode & 0x0FFF);
         print("0xB000");
         break;
     case 0xC000:
+        V[x] = (rand() % 256) & (opCode && 0x00FF);
+        pc += 2;
         print("0xC000");
         break;
     case 0xD000:
+    {
+        unsigned short height = opCode & 0x000F;
+        unsigned short pixel;
+        V[0xF] = 0;
+        for (int yline = 0; yline < height; yline++)
+        {
+            pixel = memory[I + yline];
+            logFile << I + yline << "\n";
+            logFile << std::hex << (int)memory[I + yline] << "\n";
+            for (int xline = 0; xline < 8; xline++)
+            {
+                if ((pixel & (0x80 >> xline)) != 0)
+                {
+                    if (gfx[(V[x] + xline + ((V[y] + yline) * 64))] == 1)
+                        V[0xF] = 1;
+                    gfx[V[x] + xline + ((V[y] + yline) * 64)] ^= 1;
+                }
+            }
+        }
+        drawFlag = true;
+        pc += 2;
         print("0xD000");
         break;
+    }
     case 0xE000:
+        pc += 2;
         print("0xE000");
         break;
     case 0xF000:
+        switch (opCode & 0x00FF)
+        {
+        case 0x07:
+            V[x] = delay_timer;
+            pc += 2;
+            break;
+        case 0x0A:
+            pc += 2;
+            break;
+        case 0x15:
+            delay_timer = V[x];
+            pc += 2;
+            break;
+        case 0x18:
+            delay_timer = V[x];
+            pc += 2;
+            break;
+        case 0x29:
+            I += V[x];
+            pc += 2;
+            break;
+        case 0x33:
+            memory[I] = V[x] / 100;
+            memory[I + 1] = V[x] / 10 % 10;
+            memory[I + 2] = V[x] % 10;
+            pc += 2;
+            break;
+        case 0x55:
+            for (int i = 0; i < 16; i++)
+            {
+                memory[I + i] = V[i];
+            }
+            pc += 2;
+            break;
+        case 0x65:
+            for (int i = 0; i < 16; i++)
+            {
+                V[i] = memory[I + i];
+            }
+            pc += 2;
+            break;
+        default:
+            pc += 2;
+            break;
+        }
         print("0xF000");
         break;
 
     default:
         printf("Unknown opcode: 0x%X\n", opCode);
     }
-
+    logFile << opCode << "\n";
+    printRegisters();
     if (delay_timer > 0)
         --delay_timer;
 
@@ -169,5 +406,4 @@ void Chip8CPU::emulateCycle()
             printf("BEEP!\n");
         --sound_timer;
     }
-    pc += 2;
 }

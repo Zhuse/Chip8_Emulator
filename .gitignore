@@ -34,6 +34,8 @@
 # Binaries
 *.ch8
 
+makefile
+
 /.vscode
 /.vs
 /test
