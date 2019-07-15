@@ -58,7 +58,6 @@ void Chip8CPU::initializeMemory()
     unsigned int sizeGfx = sizeof(gfx);
     unsigned int sizeStack = sizeof(stack);
     pc = 0x200;
-    opcode = 0;
     inputKey = 0xFF;
     I = 0;
     sp = 0;
@@ -84,7 +83,6 @@ void Chip8CPU::initializeMemory()
     for (int i = 0; i < 0x80; i++)
     {
         memory[i] = font_set[i];
-        logFile << std::hex << (int)memory[i] << "\n";
     }
 }
 
@@ -95,7 +93,7 @@ void Chip8CPU::loadGame()
     unsigned char *buffer;
     unsigned int fileSize = 0;
     size_t result;
-    FILE *program = fopen("test/Pong.ch8", "rb+");
+    FILE *program = fopen("test/RushHour.ch8", "rb+");
 
     if (program == NULL)
     {
@@ -151,8 +149,7 @@ void Chip8CPU::emulateCycle()
     unsigned int y = (int)((opCode & 0x00F0) >> 4);
     unsigned int addition = 0;
     bool flag = false;
-    logFile << opCode << "\n";
-    logFile << key << "\n";
+    logFile << std::hex << (int)inputKey << "\n";
     switch (opCode & 0xF000)
     {
     case 0x0000:
@@ -166,27 +163,23 @@ void Chip8CPU::emulateCycle()
             pc += 2;
             break;
         case 0x00EE:
-            print("Return from subroutine");
             pc = stack[sp];
             stack[sp] = 0;
             sp--;
             pc += 2;
             break;
         default:
-            print("Unknown OPCODE: " + opCode);
             pc += 2;
             break;
         }
         break;
     case 0x1000:
         pc = opCode & 0x0FFF;
-        print("Set pc to " + pc);
         break;
     case 0x2000:
         sp++;
         stack[sp] = pc;
         pc = opCode & 0x0FFF;
-        print("Push onto stack and set pc to " + (opCode & 0x0FFF));
         break;
     case 0x3000:
         if (V[x] == (opCode & 0x00FF))
@@ -197,7 +190,6 @@ void Chip8CPU::emulateCycle()
         {
             pc += 2;
         }
-        print("0x3000");
         break;
     case 0x4000:
         if (V[x] != (opCode & 0x00FF))
@@ -208,7 +200,6 @@ void Chip8CPU::emulateCycle()
         {
             pc += 2;
         }
-        print("0x4000");
         break;
     case 0x5000:
         if (V[x] == V[y])
@@ -219,19 +210,14 @@ void Chip8CPU::emulateCycle()
         {
             pc += 2;
         }
-        print("0x5000");
         break;
     case 0x6000:
-        logFile << x << "\n";
-        logFile << ((opCode & 0x0F00) >> 8) << "\n";
         V[x] = opCode & 0x00FF;
         pc += 2;
-        print("0x6000");
         break;
     case 0x7000:
         V[x] += opCode & 0x00FF;
         pc += 2;
-        print("0x7000");
         break;
     case 0x8000:
         switch (opCode & 0x000F)
@@ -294,8 +280,6 @@ void Chip8CPU::emulateCycle()
         case 0x000E:
             if (V[x] >> 7 == 0x1)
             {
-                logFile << "We in here"
-                        << "\n";
                 V[0xF] = 1;
             }
             else
@@ -305,7 +289,6 @@ void Chip8CPU::emulateCycle()
             V[x] *= 2;
         }
         pc += 2;
-        print("0x8000");
         break;
     case 0x9000:
         if (V[x] != V[y])
@@ -316,21 +299,17 @@ void Chip8CPU::emulateCycle()
         {
             pc += 2;
         }
-        print("0x9000");
         break;
     case 0xA000:
         I = opCode & 0x0FFF;
         pc += 2;
-        print("0xA000");
         break;
     case 0xB000:
         pc += V[0] + (opCode & 0x0FFF);
-        print("0xB000");
         break;
     case 0xC000:
         V[x] = (rand() % 256) & (opCode && 0x00FF);
         pc += 2;
-        print("0xC000");
         break;
     case 0xD000:
     {
@@ -354,7 +333,6 @@ void Chip8CPU::emulateCycle()
         }
         drawFlag = true;
         pc += 2;
-        print("0xD000");
         break;
     }
     case 0xE000:
@@ -386,8 +364,13 @@ void Chip8CPU::emulateCycle()
             pc += 2;
             break;
         case 0x0A:
-            pc += 2;
-            break;
+            if (inputKey == 0xFF) 
+                break;
+            else {
+                V[x] = inputKey;
+                pc += 2;
+                break;
+            }
         case 0x15:
             delay_timer = V[x];
             pc += 2;
@@ -396,8 +379,12 @@ void Chip8CPU::emulateCycle()
             delay_timer = V[x];
             pc += 2;
             break;
-        case 0x29:
+        case 0x1E:
             I += V[x];
+            pc += 2;
+            break;
+        case 0x29:
+            I = V[x] * 5;
             pc += 2;
             break;
         case 0x33:
@@ -424,14 +411,12 @@ void Chip8CPU::emulateCycle()
             pc += 2;
             break;
         }
-        print("0xF000");
         break;
 
     default:
         printf("Unknown opcode: 0x%X\n", opCode);
     }
-    logFile << opCode << "\n";
-    printRegisters();
+    // printRegisters();
     if (delay_timer > 0)
         --delay_timer;
 
