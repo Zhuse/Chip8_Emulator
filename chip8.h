@@ -26,8 +26,10 @@ private:
     void print(std::string s);
     void printRegisters();
     void reDrawScreen();
+
 public:
     bool drawFlag;
+    unsigned char inputKey;
     unsigned char gfx[64 * 32];
 
     void initializeMemory();

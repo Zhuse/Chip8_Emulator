@@ -59,6 +59,7 @@ void Chip8CPU::initializeMemory()
     unsigned int sizeStack = sizeof(stack);
     pc = 0x200;
     opcode = 0;
+    inputKey = 0xFF;
     I = 0;
     sp = 0;
     delay_timer = 60;
@@ -94,7 +95,7 @@ void Chip8CPU::loadGame()
     unsigned char *buffer;
     unsigned int fileSize = 0;
     size_t result;
-    FILE *program = fopen("test/test_opcode.ch8", "rb+");
+    FILE *program = fopen("test/Pong.ch8", "rb+");
 
     if (program == NULL)
     {
@@ -158,7 +159,10 @@ void Chip8CPU::emulateCycle()
         switch (opCode & 0x0FFF)
         {
         case 0x00E0:
-            print("Clear display");
+            for (int i = 0; i < 64 * 32; i++)
+            {
+                gfx[i] = 0;
+            }
             pc += 2;
             break;
         case 0x00EE:
@@ -166,6 +170,7 @@ void Chip8CPU::emulateCycle()
             pc = stack[sp];
             stack[sp] = 0;
             sp--;
+            pc += 2;
             break;
         default:
             print("Unknown OPCODE: " + opCode);
@@ -187,7 +192,9 @@ void Chip8CPU::emulateCycle()
         if (V[x] == (opCode & 0x00FF))
         {
             pc += 4;
-        } else {
+        }
+        else
+        {
             pc += 2;
         }
         print("0x3000");
@@ -196,7 +203,9 @@ void Chip8CPU::emulateCycle()
         if (V[x] != (opCode & 0x00FF))
         {
             pc += 4;
-        } else {
+        }
+        else
+        {
             pc += 2;
         }
         print("0x4000");
@@ -205,7 +214,9 @@ void Chip8CPU::emulateCycle()
         if (V[x] == V[y])
         {
             pc += 4;
-        } else {
+        }
+        else
+        {
             pc += 2;
         }
         print("0x5000");
@@ -257,7 +268,9 @@ void Chip8CPU::emulateCycle()
             V[x] = V[x] - V[y];
             break;
         case 0x0006:
-            if ((opCode & 0x000F) == 0x0001)
+            logFile << "MARK 6"
+                    << "\n";
+            if (V[x] && 0x1 == 0x1)
             {
                 V[0xF] = 1;
             }
@@ -266,6 +279,7 @@ void Chip8CPU::emulateCycle()
                 V[0xF] = 0;
             }
             V[x] /= 2;
+            break;
         case 0x0007:
             if (V[y] > V[x])
             {
@@ -278,8 +292,10 @@ void Chip8CPU::emulateCycle()
             V[x] = V[y] - V[x];
             break;
         case 0x000E:
-            if ((opCode & 0x000F) == 0x1000)
+            if (V[x] >> 7 == 0x1)
             {
+                logFile << "We in here"
+                        << "\n";
                 V[0xF] = 1;
             }
             else
@@ -295,7 +311,9 @@ void Chip8CPU::emulateCycle()
         if (V[x] != V[y])
         {
             pc += 4;
-        } else {
+        }
+        else
+        {
             pc += 2;
         }
         print("0x9000");
@@ -340,8 +358,25 @@ void Chip8CPU::emulateCycle()
         break;
     }
     case 0xE000:
-        pc += 2;
-        print("0xE000");
+        switch (opCode & 0x00FF)
+        {
+        case 0x9E:
+            if (inputKey == V[x])
+            {
+                pc += 4;
+            } else {
+                pc += 2;
+            }
+            break;
+        case 0xA1:
+            if (inputKey != V[x])
+            {
+                pc += 4;
+            } else {
+                pc += 2;
+            }
+            break;
+        }
         break;
     case 0xF000:
         switch (opCode & 0x00FF)
@@ -372,14 +407,14 @@ void Chip8CPU::emulateCycle()
             pc += 2;
             break;
         case 0x55:
-            for (int i = 0; i < 16; i++)
+            for (int i = 0; i <= x; i++)
             {
                 memory[I + i] = V[i];
             }
             pc += 2;
             break;
         case 0x65:
-            for (int i = 0; i < 16; i++)
+            for (int i = 0; i <= x; i++)
             {
                 V[i] = memory[I + i];
             }

@@ -1,13 +1,17 @@
 #include "chip8.h" // Your cpu core implementation
-
+#include <map>
 const int WINDOW_GFX_SCALE = 8;
+
 SDL_Window *initWindow();
+std::map<SDL_Keycode, unsigned char> getKeyboard();
 void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[]);
 int main(int argc, char **argv)
 {
   SDL_Window *window = NULL;
   SDL_Event event;
   Chip8CPU cpu;
+  std::map<SDL_Keycode, unsigned char> keyMap = getKeyboard();
+  SDL_Keycode eventKey;
   window = SDL_CreateWindow(
       "Chip-8 Interpreter", SDL_WINDOWPOS_UNDEFINED,
       SDL_WINDOWPOS_UNDEFINED,
@@ -27,6 +31,16 @@ int main(int argc, char **argv)
       if (event.type == SDL_QUIT)
       {
         exit(0);
+      } else if (event.type == SDL_KEYDOWN) {
+        eventKey = event.key.keysym.sym;
+        if (keyMap.count(eventKey) == 1) {
+          cpu.inputKey = keyMap[event.key.keysym.sym];
+        }
+      } else if (event.type == SDL_KEYUP) {
+        eventKey = event.key.keysym.sym;
+        if (keyMap.count(eventKey) == 1) {
+          cpu.inputKey = 0xFF;
+        }
       }
     }
     // Emulate one cycle
@@ -42,7 +56,6 @@ int main(int argc, char **argv)
  
     // Store key press state (Press and Release)
     chip8CPU.setKeys();	*/
-    SDL_Delay(16);
   }
 
   SDL_DestroyWindow(window);
@@ -53,23 +66,67 @@ int main(int argc, char **argv)
 void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[])
 {
   SDL_Rect rect;
+  int index = 0;
+  rect.w = WINDOW_GFX_SCALE;
+  rect.h = WINDOW_GFX_SCALE;
   for (int i = 0; i < 32; i++)
   {
     for (int c = 0; c < 64; c++)
     {
-      if (gfx[i * 64 + c])
-      {
-        rect.x = c * WINDOW_GFX_SCALE;
-        rect.y = i * WINDOW_GFX_SCALE;
-        rect.w = WINDOW_GFX_SCALE;
-        rect.h = WINDOW_GFX_SCALE;
-        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 100);
-        SDL_RenderFillRect(renderer, &rect);
-      }
+      index = i * 64 + c;
+      rect.x = c * WINDOW_GFX_SCALE;
+      rect.y = i * WINDOW_GFX_SCALE;
+      gfx[index] ? SDL_SetRenderDrawColor(renderer, 255, 0, 0, 100) : SDL_SetRenderDrawColor(renderer, 0, 0, 0, 100);
+      SDL_RenderFillRect(renderer, &rect);
     }
   }
   SDL_RenderPresent(renderer);
 }
+
+std::map<SDL_Keycode, unsigned char> getKeyboard() {
+  std::map<SDL_Keycode, unsigned char> keyboard;
+  SDL_Keycode hexPad [] = {
+    SDLK_1, 
+    SDLK_2, 
+    SDLK_3, 
+    SDLK_c, 
+    SDLK_4, 
+    SDLK_5, 
+    SDLK_6, 
+    SDLK_d, 
+    SDLK_7, 
+    SDLK_8, 
+    SDLK_9, 
+    SDLK_e, 
+    SDLK_9, 
+    SDLK_0, 
+    SDLK_b, 
+    SDLK_f
+    };
+  unsigned char hexPadMapped [] = {
+    0x1, 
+    0x2, 
+    0x3, 
+    0x4, 
+    0x4, 
+    0x5, 
+    0x6, 
+    0xD, 
+    0x7, 
+    0x8, 
+    0x9, 
+    0xE, 
+    0xA, 
+    0x0,
+    0xB, 
+    0xF
+    };
+  for (int i = 0; i < sizeof(hexPad); i++) {
+    keyboard.insert(std::make_pair(hexPad[i], hexPadMapped[i]));
+  }
+  return keyboard;
+}
+
 SDL_Window *initWindow()
 {
   SDL_Window *window;       // Declare a pointer
