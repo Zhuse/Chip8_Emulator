@@ -58,7 +58,6 @@ void Chip8CPU::initializeMemory()
     unsigned int sizeGfx = sizeof(gfx);
     unsigned int sizeStack = sizeof(stack);
     pc = 0x200;
-    inputKey = 0xFF;
     I = 0;
     sp = 0;
     delay_timer = 60;
@@ -149,7 +148,6 @@ void Chip8CPU::emulateCycle()
     unsigned int y = (int)((opCode & 0x00F0) >> 4);
     unsigned int addition = 0;
     bool flag = false;
-    logFile << std::hex << (int)inputKey << "\n";
     switch (opCode & 0xF000)
     {
     case 0x0000:
@@ -254,9 +252,7 @@ void Chip8CPU::emulateCycle()
             V[x] = V[x] - V[y];
             break;
         case 0x0006:
-            logFile << "MARK 6"
-                    << "\n";
-            if (V[x] && 0x1 == 0x1)
+            if (V[x] & 0x1 == 0x1)
             {
                 V[0xF] = 1;
             }
@@ -339,18 +335,22 @@ void Chip8CPU::emulateCycle()
         switch (opCode & 0x00FF)
         {
         case 0x9E:
-            if (inputKey == V[x])
+            if (inputKeys[V[x]])
             {
                 pc += 4;
-            } else {
+            }
+            else
+            {
                 pc += 2;
             }
             break;
         case 0xA1:
-            if (inputKey != V[x])
+            if (!inputKeys[V[x]])
             {
                 pc += 4;
-            } else {
+            }
+            else
+            {
                 pc += 2;
             }
             break;
@@ -364,22 +364,36 @@ void Chip8CPU::emulateCycle()
             pc += 2;
             break;
         case 0x0A:
-            if (inputKey == 0xFF) 
-                break;
-            else {
-                V[x] = inputKey;
-                pc += 2;
-                break;
+        {
+            bool flag = false;
+            for (int i = 0; i < sizeof(inputKeys); i++)
+            {
+                if (inputKeys[i])
+                {
+                    flag = true;
+                    V[x] = i;
+                }
             }
+            if (flag)
+            {
+                pc += 2;
+            }
+            break;
+        }
         case 0x15:
             delay_timer = V[x];
             pc += 2;
             break;
         case 0x18:
-            delay_timer = V[x];
+            sound_timer = V[x];
             pc += 2;
             break;
         case 0x1E:
+            if (I += V[x] >= 0x1000) {
+                V[0xF] = 0x1;
+            } else {
+                V[0xF] = 0x0;
+            }
             I += V[x];
             pc += 2;
             break;

@@ -1,7 +1,8 @@
 #include "chip8.h" // Your cpu core implementation
 #include <map>
 const int WINDOW_GFX_SCALE = 8;
-
+const int FPS = 60;
+const int CLOCK_SPEED_IN_HZ = 600;
 SDL_Window *initWindow();
 std::map<SDL_Keycode, unsigned char> getKeyboard();
 void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[]);
@@ -34,21 +35,26 @@ int main(int argc, char **argv)
       } else if (event.type == SDL_KEYDOWN) {
         eventKey = event.key.keysym.sym;
         if (keyMap.count(eventKey) == 1) {
-          cpu.inputKey = keyMap[event.key.keysym.sym];
+          cpu.inputKeys[keyMap[eventKey]] = true;
         }
       } else if (event.type == SDL_KEYUP) {
         eventKey = event.key.keysym.sym;
         if (keyMap.count(eventKey) == 1) {
-          cpu.inputKey = 0xFF;
+          cpu.inputKeys[keyMap[eventKey]] = false;
         }
       }
     }
-    // Emulate one cycle
-    cpu.emulateCycle();
+  
+    for (int i = 0; i < CLOCK_SPEED_IN_HZ / FPS; i++) {
+      cpu.emulateCycle();
+    }
+
     if (cpu.drawFlag)
     {
       drawGraphics(renderer, cpu.gfx);
     }
+
+    SDL_Delay(1000 / FPS);
     /*
     // If the draw flag is set, update the screen
     if(chip8CPU.drawFlag)

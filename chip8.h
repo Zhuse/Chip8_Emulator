@@ -28,7 +28,7 @@ private:
 
 public:
     bool drawFlag;
-    unsigned char inputKey;
+    bool inputKeys [16];
     unsigned char gfx[64 * 32];
 
     void initializeMemory();
