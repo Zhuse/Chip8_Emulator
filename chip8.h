@@ -19,10 +19,9 @@ private:
     unsigned short stack[16];
     unsigned short sp;
     unsigned char key[16];
-
+    unsigned int instructionCounter;
+    
     int getFileSize(FILE *program);
-
-    void print(std::string s);
     void printRegisters();
     void reDrawScreen();
 
@@ -30,9 +29,10 @@ public:
     bool drawFlag;
     bool inputKeys [16];
     unsigned char gfx[64 * 32];
-
+    unsigned int clockSpeed;
+    unsigned int fps;
     void initializeMemory();
-    void loadGame();
+    void loadGame(const char * filePath);
     void emulateCycle();
 };
 

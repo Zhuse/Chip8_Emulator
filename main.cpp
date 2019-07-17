@@ -3,16 +3,23 @@
 const int WINDOW_GFX_SCALE = 8;
 const int FPS = 60;
 const int CLOCK_SPEED_IN_HZ = 600;
+const char *defaultColours[] = { "0", "0", "0"};
 SDL_Window *initWindow();
 std::map<SDL_Keycode, unsigned char> getKeyboard();
-void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[]);
-int main(int argc, char **argv)
+void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[], unsigned int r, unsigned int g, unsigned int b);
+
+int main(int argc, char *argv[])
 {
   SDL_Window *window = NULL;
   SDL_Event event;
   Chip8CPU cpu;
   std::map<SDL_Keycode, unsigned char> keyMap = getKeyboard();
   SDL_Keycode eventKey;
+
+  unsigned int red = std::stoi(argv[2]);
+  unsigned int green = std::stoi(argv[3]);
+  unsigned int blue = std::stoi(argv[4]);
+
   window = SDL_CreateWindow(
       "Chip-8 Interpreter", SDL_WINDOWPOS_UNDEFINED,
       SDL_WINDOWPOS_UNDEFINED,
@@ -24,7 +31,7 @@ int main(int argc, char **argv)
   SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
   cpu.initializeMemory();
-  cpu.loadGame();
+  cpu.loadGame(argv[1]);
   while (true)
   {
     if (SDL_PollEvent(&event))
@@ -51,17 +58,9 @@ int main(int argc, char **argv)
 
     if (cpu.drawFlag)
     {
-      drawGraphics(renderer, cpu.gfx);
+      drawGraphics(renderer, cpu.gfx, red, green, blue);
     }
-
     SDL_Delay(1000 / FPS);
-    /*
-    // If the draw flag is set, update the screen
-    if(chip8CPU.drawFlag)
-      drawGraphics();
- 
-    // Store key press state (Press and Release)
-    chip8CPU.setKeys();	*/
   }
 
   SDL_DestroyWindow(window);
@@ -69,7 +68,7 @@ int main(int argc, char **argv)
   return EXIT_SUCCESS;
 }
 
-void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[])
+void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[], unsigned int r, unsigned int g, unsigned int b)
 {
   SDL_Rect rect;
   int index = 0;
@@ -82,7 +81,7 @@ void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[])
       index = i * 64 + c;
       rect.x = c * WINDOW_GFX_SCALE;
       rect.y = i * WINDOW_GFX_SCALE;
-      gfx[index] ? SDL_SetRenderDrawColor(renderer, 255, 0, 0, 100) : SDL_SetRenderDrawColor(renderer, 0, 0, 0, 100);
+      gfx[index] ? SDL_SetRenderDrawColor(renderer, r, g, b, 100) : SDL_SetRenderDrawColor(renderer, 0, 0, 0, 100);
       SDL_RenderFillRect(renderer, &rect);
     }
   }
@@ -145,7 +144,7 @@ SDL_Window *initWindow()
       SDL_WINDOWPOS_UNDEFINED, // initial y position
       512,                     // width, in pixels
       256,                     // height, in pixels
-      SDL_WINDOW_OPENGL        // flags - see below
+      SDL_WINDOW_OPENGL        // flag
   );
 
   // Check that the window was successfully created
@@ -155,7 +154,6 @@ SDL_Window *initWindow()
     printf("Could not create window: %s\n", SDL_GetError());
     return NULL;
   }
-  // The window is open: could enter program loop here (see SDL_PollEvent())
 
   return window;
 }

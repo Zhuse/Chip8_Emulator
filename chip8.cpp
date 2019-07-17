@@ -1,5 +1,6 @@
 #include "chip8.h"
 
+//CONSTANTS
 const unsigned char font_set[80] =
     {
         0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
@@ -19,39 +20,20 @@ const unsigned char font_set[80] =
         0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
         0xF0, 0x80, 0xF0, 0x80, 0x80  // F
 };
+
+//Constructor
 Chip8CPU cpu();
-std::ofstream logFile;
+
+//Get the size of the file
 int Chip8CPU::getFileSize(FILE *program)
 {
     int size = 0;
     fseek(program, 0, SEEK_END); // seek to end of file
     size = ftell(program);       // get current file pointer
     fseek(program, 0, SEEK_SET); // seek back to beginning of file
-
     return size;
 }
 
-void Chip8CPU::print(std::string s)
-{
-    logFile << s << "\n";
-}
-
-void Chip8CPU::printRegisters()
-{
-    logFile << "-------------------------------\n";
-    logFile << "PC: " << std::hex << (int)pc << "\n";
-    logFile << "SP: " << std::hex << (int)sp << "\n";
-    logFile << "I: " << std::hex << (int)I << "\n";
-    for (int i = 0; i < sizeof(V); i++)
-    {
-        logFile << "V" << i << ": " << std::hex << (int)V[i] << "\n";
-    }
-    for (int i = 0; i < sizeof(stack); i++)
-    {
-        logFile << "Stack_" << i << ": " << std::hex << (int)stack[i] << "\n";
-    }
-    logFile << "-------------------------------\n";
-}
 void Chip8CPU::initializeMemory()
 {
     unsigned int sizeV = sizeof(V);
@@ -62,7 +44,9 @@ void Chip8CPU::initializeMemory()
     sp = 0;
     delay_timer = 60;
     sound_timer = 60;
-    logFile.open("log.txt");
+    clockSpeed = 600;
+    fps = 60;
+    instructionCounter = 0;
 
     for (int i = 0; i < sizeV; i++)
     {
@@ -74,7 +58,7 @@ void Chip8CPU::initializeMemory()
         gfx[i] = 0;
     }
 
-    for (int i = 0; i < sizeof(stack); i++)
+    for (int i = 0; i < sizeStack; i++)
     {
         stack[i] = 0;
     }
@@ -85,14 +69,14 @@ void Chip8CPU::initializeMemory()
     }
 }
 
-void Chip8CPU::loadGame()
+void Chip8CPU::loadGame(const char * filePath)
 {
     unsigned int memCount = 0;
     unsigned char c;
     unsigned char *buffer;
     unsigned int fileSize = 0;
     size_t result;
-    FILE *program = fopen("test/RushHour.ch8", "rb+");
+    FILE *program = fopen(filePath, "rb+");
 
     if (program == NULL)
     {
@@ -101,26 +85,7 @@ void Chip8CPU::loadGame()
     }
 
     fileSize = getFileSize(program);
-    logFile << "Loaded file size is " << fileSize << " bytes \n";
     buffer = (unsigned char *)malloc(getFileSize(program));
-    /*
-        if (program != NULL)
-        {
-            while ((c = fgetc(program)) != EOF)
-            {
-                memory[0x200 + memCount] = c;
-                logFile << std::hex << memory[0x200 + memCount] << "\n";
-                memCount++;
-            }
-            logFile << "Successfully loaded program";
-        }
-        else
-        {
-            fclose(program);
-            logFile << "ERROR: could not load program";
-        }*/
-
-    // copy the file into the buffer:
     result = fread(buffer, sizeof(unsigned char), fileSize, program);
 
     if (buffer == NULL)
@@ -143,11 +108,17 @@ void Chip8CPU::loadGame()
 void Chip8CPU::emulateCycle()
 {
     unsigned short int opCode = 0x0;
-    opCode = (int)(memory[pc] << 8 | (memory[pc + 1]));
-    unsigned int x = (int)((opCode & 0x0F00) >> 8);
-    unsigned int y = (int)((opCode & 0x00F0) >> 4);
+    unsigned int x = 0;
+    unsigned int y = 0;
     unsigned int addition = 0;
     bool flag = false;
+
+    opCode = (int)(memory[pc] << 8 | (memory[pc + 1]));
+    x = (int)((opCode & 0x0F00) >> 8);
+    y = (int)((opCode & 0x00F0) >> 4);
+    addition = 0;
+    flag = false;
+
     switch (opCode & 0xF000)
     {
     case 0x0000:
@@ -315,8 +286,6 @@ void Chip8CPU::emulateCycle()
         for (int yline = 0; yline < height; yline++)
         {
             pixel = memory[I + yline];
-            logFile << I + yline << "\n";
-            logFile << std::hex << (int)memory[I + yline] << "\n";
             for (int xline = 0; xline < 8; xline++)
             {
                 if ((pixel & (0x80 >> xline)) != 0)
@@ -428,16 +397,17 @@ void Chip8CPU::emulateCycle()
         break;
 
     default:
-        printf("Unknown opcode: 0x%X\n", opCode);
+        exit(EXIT_FAILURE);
     }
-    // printRegisters();
-    if (delay_timer > 0)
+    if (delay_timer > 0 && instructionCounter >= clockSpeed / fps) {
         --delay_timer;
-
-    if (sound_timer > 0)
+        instructionCounter = 0;
+    }
+    if (sound_timer > 0 && instructionCounter >= clockSpeed / fps)
     {
         if (sound_timer == 1)
-            printf("BEEP!\n");
+            Beep(600, 100);
         --sound_timer;
     }
+    instructionCounter++;
 }
