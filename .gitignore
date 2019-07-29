@@ -27,7 +27,6 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 
@@ -39,4 +38,3 @@ makefile
 
 /.vscode
 /.vs
-/test

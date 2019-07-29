@@ -21,7 +21,6 @@ const unsigned char font_set[80] =
         0xF0, 0x80, 0xF0, 0x80, 0x80  // F
 };
 
-//Constructor
 Chip8CPU cpu();
 
 //Get the size of the file
@@ -34,6 +33,7 @@ int Chip8CPU::getFileSize(FILE *program)
     return size;
 }
 
+//Initialize Memory
 void Chip8CPU::initializeMemory()
 {
     unsigned int sizeV = sizeof(V);
@@ -48,27 +48,28 @@ void Chip8CPU::initializeMemory()
     fps = 60;
     instructionCounter = 0;
 
-    for (int i = 0; i < sizeV; i++)
+    for (unsigned int i = 0; i < sizeV; i++)
     {
         V[i] = 0;
     }
 
-    for (int i = 0; i < sizeGfx; i++)
+    for (unsigned int i = 0; i < sizeGfx; i++)
     {
         gfx[i] = 0;
     }
 
-    for (int i = 0; i < sizeStack; i++)
+    for (unsigned int i = 0; i < sizeStack; i++)
     {
         stack[i] = 0;
     }
 
-    for (int i = 0; i < 0x80; i++)
+    for (unsigned int i = 0; i < 0x80; i++)
     {
         memory[i] = font_set[i];
     }
 }
 
+//Load memory into buffer
 void Chip8CPU::loadGame(const char * filePath)
 {
     unsigned int memCount = 0;
@@ -99,7 +100,7 @@ void Chip8CPU::loadGame(const char * filePath)
         exit(3);
     }
 
-    for (int i = 0; i < fileSize; i++)
+    for (unsigned int i = 0; i < fileSize; i++)
     {
         memory[0x200 + i] = buffer[i];
     }
@@ -113,19 +114,21 @@ void Chip8CPU::emulateCycle()
     unsigned int addition = 0;
     bool flag = false;
 
+    //Fetch opCode
     opCode = (int)(memory[pc] << 8 | (memory[pc + 1]));
     x = (int)((opCode & 0x0F00) >> 8);
     y = (int)((opCode & 0x00F0) >> 4);
     addition = 0;
     flag = false;
 
+    //Decode and Execute opCode
     switch (opCode & 0xF000)
     {
     case 0x0000:
         switch (opCode & 0x0FFF)
         {
         case 0x00E0:
-            for (int i = 0; i < 64 * 32; i++)
+            for (unsigned int i = 0; i < 64 * 32; i++)
             {
                 gfx[i] = 0;
             }
@@ -283,10 +286,10 @@ void Chip8CPU::emulateCycle()
         unsigned short height = opCode & 0x000F;
         unsigned short pixel;
         V[0xF] = 0;
-        for (int yline = 0; yline < height; yline++)
+        for (unsigned int yline = 0; yline < height; yline++)
         {
             pixel = memory[I + yline];
-            for (int xline = 0; xline < 8; xline++)
+            for (unsigned int xline = 0; xline < 8; xline++)
             {
                 if ((pixel & (0x80 >> xline)) != 0)
                 {
@@ -335,7 +338,7 @@ void Chip8CPU::emulateCycle()
         case 0x0A:
         {
             bool flag = false;
-            for (int i = 0; i < sizeof(inputKeys); i++)
+            for (unsigned int i = 0; i < sizeof(inputKeys); i++)
             {
                 if (inputKeys[i])
                 {
@@ -377,14 +380,14 @@ void Chip8CPU::emulateCycle()
             pc += 2;
             break;
         case 0x55:
-            for (int i = 0; i <= x; i++)
+            for (unsigned int i = 0; i <= x; i++)
             {
                 memory[I + i] = V[i];
             }
             pc += 2;
             break;
         case 0x65:
-            for (int i = 0; i <= x; i++)
+            for (unsigned int i = 0; i <= x; i++)
             {
                 V[i] = memory[I + i];
             }

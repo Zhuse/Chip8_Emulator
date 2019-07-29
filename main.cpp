@@ -12,13 +12,25 @@ int main(int argc, char *argv[])
 {
   SDL_Window *window = NULL;
   SDL_Event event;
-  Chip8CPU cpu;
-  std::map<SDL_Keycode, unsigned char> keyMap = getKeyboard();
   SDL_Keycode eventKey;
+  SDL_Renderer *renderer;
+  Chip8CPU cpu;
 
-  unsigned int red = std::stoi(argv[2]);
-  unsigned int green = std::stoi(argv[3]);
-  unsigned int blue = std::stoi(argv[4]);
+  std::map<SDL_Keycode, unsigned char> keyMap = getKeyboard();
+
+  unsigned int red;
+  unsigned int green;
+  unsigned int blue;
+
+  try {
+     red = std::stoi(argv[2]);
+     green = std::stoi(argv[3]);
+     blue = std::stoi(argv[4]);
+  } catch (...) {
+    red = 255;
+    green = 255;
+    blue = 255;
+  }
 
   window = SDL_CreateWindow(
       "Chip-8 Interpreter", SDL_WINDOWPOS_UNDEFINED,
@@ -28,10 +40,12 @@ int main(int argc, char *argv[])
       SDL_WINDOW_SHOWN);
 
   // Setup renderer
-  SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+  renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
   cpu.initializeMemory();
   cpu.loadGame(argv[1]);
+
+  //Interpreter event loop
   while (true)
   {
     if (SDL_PollEvent(&event))
@@ -39,27 +53,31 @@ int main(int argc, char *argv[])
       if (event.type == SDL_QUIT)
       {
         exit(0);
-      } else if (event.type == SDL_KEYDOWN) {
+      } else if (event.type == SDL_KEYDOWN) { //Handle keyboard key press
         eventKey = event.key.keysym.sym;
         if (keyMap.count(eventKey) == 1) {
           cpu.inputKeys[keyMap[eventKey]] = true;
         }
-      } else if (event.type == SDL_KEYUP) {
+      } else if (event.type == SDL_KEYUP) { //Handle keyboard key release
         eventKey = event.key.keysym.sym;
         if (keyMap.count(eventKey) == 1) {
           cpu.inputKeys[keyMap[eventKey]] = false;
         }
       }
     }
-  
-    for (int i = 0; i < CLOCK_SPEED_IN_HZ / FPS; i++) {
+
+    //Begin clock cycle
+    for (unsigned int i = 0; i < CLOCK_SPEED_IN_HZ / FPS; i++) {
       cpu.emulateCycle();
     }
 
+    //Draw graphics if required
     if (cpu.drawFlag)
     {
       drawGraphics(renderer, cpu.gfx, red, green, blue);
     }
+
+    //Delay to reach 60 FPS
     SDL_Delay(1000 / FPS);
   }
 
@@ -74,9 +92,9 @@ void drawGraphics(SDL_Renderer *renderer, unsigned char gfx[], unsigned int r, u
   int index = 0;
   rect.w = WINDOW_GFX_SCALE;
   rect.h = WINDOW_GFX_SCALE;
-  for (int i = 0; i < 32; i++)
+  for (unsigned int i = 0; i < 32; i++)
   {
-    for (int c = 0; c < 64; c++)
+    for (unsigned int c = 0; c < 64; c++)
     {
       index = i * 64 + c;
       rect.x = c * WINDOW_GFX_SCALE;
@@ -126,7 +144,7 @@ std::map<SDL_Keycode, unsigned char> getKeyboard() {
     0xB, 
     0xF
     };
-  for (int i = 0; i < sizeof(hexPad); i++) {
+  for (unsigned int i = 0; i < sizeof(hexPad); i++) {
     keyboard.insert(std::make_pair(hexPad[i], hexPadMapped[i]));
   }
   return keyboard;
