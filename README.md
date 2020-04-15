@@ -21,7 +21,3 @@ The interpreter runs at 60 FPS and operates with a clock speed of 600Hz by defau
 1. Download SDL2 from https://www.libsdl.org/download-2.0.php
 2. Change the lines in the makefile to point to SDL2's include and library folders.
 3. Run `make`
-  
-## To-do
-1. Non-blocking sound
-2. Bug fix with Rush Hour where menu does not process keyboard input.
